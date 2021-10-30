@@ -27,8 +27,7 @@ sum
 
 
 def halve number
-    number / 2
-    nil
+    number / 2 if number.class == Integer 
 end   
 result = halve 4
 result = halve "two"
